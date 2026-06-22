@@ -1,6 +1,6 @@
 # TinyGPT
 
-A small GPT language model trained from scratch on Wikipedia text, with LLaMA-style architecture (RMSNorm + SwiGLU + RoPE).
+A template for training a small GPT language model from scratch on Wikipedia text, with LLaMA-style architecture (RMSNorm + SwiGLU + RoPE).
 
 ## Architecture
 
