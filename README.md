@@ -4,7 +4,6 @@ A template for training a small GPT language model from scratch on Wikipedia tex
 
 ## Architecture
 
-- **129M parameters**
 - 13 layers, 768 embed dim, 12 heads, 64 head dim
 - RMSNorm, SwiGLU, Rotary Position Embeddings
 - SentencePiece tokenizer (8192 vocab)
@@ -46,6 +45,8 @@ tinygpt/
 ├── download_datasets.py     # Download Wikitext-103
 ├── scrape_corpus.py         # Scrape Wikipedia articles
 ├── export_gguf.py           # Export to GGUF format
+├── data/
+│   └── corpus/              # Training text data (Wikipedia articles)
 ├── model/
 │   ├── config.py            # Model hyperparameters
 │   ├── transformer.py       # RMSNorm + RoPE + SwiGLU transformer

@@ -3,10 +3,10 @@ __pycache__/
 .venv/
 .venv312/
 ckpt/
-data/
+data/*.bin
+data/parquet/
+data/scrape_progress.json
 *.gguf
-*.bin
 *.pt
-scrape_progress.json
 tokenizer/tinygpt.model
 tokenizer/tinygpt.vocab
